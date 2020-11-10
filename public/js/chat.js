@@ -37,6 +37,7 @@ socket.on('newMessage', (message) => {
         createdAt: formattedtime
     });
     const div = document.createElement('div');
+    div.setAttribute("id", "rep");
     div.innerHTML = html;
     document.querySelector('#messages').appendChild(div);
     scrollToBottom();

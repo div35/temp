@@ -151,7 +151,13 @@ button:disabled {
     flex-grow: 1;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    padding: 10px
+    padding: 10px;
+    
+}
+
+#rep{
+    word-wrap: break-word;
+    max-width: 70rem;
 }
 
 .chat__footer {
